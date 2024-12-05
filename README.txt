@@ -37,7 +37,15 @@ then we can extrude and create the screw after threading the screw holding and t
 For the next phase we create the holes for the 3 electornic components the 1 joystick, the 1 led and the 1 motion detector. since the player is 
 holding the P from the bottom the joystick will be around that area for their thumb, the motion detector and LED will be near the top of the P as the motion detector can 
 detector the swing motion best from the apex while the LED pin being at the top makes the player see the best rather than the bottom. 
-For the sercuring the parts each part as a case with gaps for the wires, their wires will wrap around the cases n when put inside the casing it won't move. 
+For the sercuring the parts each part as a case with gaps for the wires, their wires will wrap around the pole cases n when put inside the casing it won't move. 
+For the LED it will fit tightly within the hole and the wires will be wrapped around its casing while the joystick will be screwed in. The motion detector will be cased inside the controller near the top of the controller.
 The hole at the bottom of the P inidcates the wires coming out towards the ardiuno that will be outside of both controllers. The reason why the ariduno is outside 
 is because if it was in one of the controllers the other controller would have to connect to it causing more wiring issues and less freeablility when playing.
+
+(G Controller)
+the CAD process here is the same as P, creating a G with the sketch tool, splitting the face with a line to create a top and lower lid, using shell to create the inside and 
+creating hole in area for screws in areas that will hold the controller togther with no weak points. A hole will be at the bottom while for the wires to come out of while having 1 hole for the joystick and 4 for the buttons.
+The joystick will be held by screws while the buttons wires will be held with an interanl beam which its wire will be wrapped around and then placed inside the controller. The reason why the a buttons are near the joystick is because since
+the controller is a G shape the only way I could think of is the player holding it underhanded. with this their left thumb moves the look stick while the 4 fingers that are naturally gripping the controller have buttons on said location. 
+this maximizes comfortabililty and button placement without reaching far. 
 
